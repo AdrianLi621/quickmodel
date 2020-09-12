@@ -11,10 +11,10 @@ quickmodel 是快速把数据库表生成golang 结构体文件的扩展.
 1.在项目中新建.ini文件，例如db.ini
 
     [database]
-        host:127.0.0.1  //数据库ip地址
-        user:root       //用户名
-        password:root   //密码
-        dbname:test     //数据库名称
+        host=127.0.0.1
+        user=root
+        password=root
+        dbname=test
 
 2.在项目中使用,实例如下:
 
